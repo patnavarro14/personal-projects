@@ -1,11 +1,7 @@
-header {
-
+.header {
+ font-family: 'Trebuchet MS', Helvetica, sans-serif;
 }
 
-title {
+.nav h1{
 
-}
-
-h1 {
-  
 }
