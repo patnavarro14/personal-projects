@@ -1,7 +1,10 @@
 .header {
- font-family: 'Trebuchet MS', Helvetica, sans-serif;
+ font-family: "Trebuchet MS", Helvetica, sans-serif;
+ color: white;
+ text-align: "center";
+ background-image: url("kabayan(2).jpg");
 }
 
-.nav h1{
+.nav {
 
 }
