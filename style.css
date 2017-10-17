@@ -1,8 +1,8 @@
-.header {
+.header h1 {
  font-family: "Trebuchet MS", Helvetica, sans-serif;
  color: white;
  text-align: "center";
- background-image: url("kabayan(2).jpg");
+ background-image: url("kabayan.jpg");
 }
 
 .nav {
