@@ -50,3 +50,13 @@
   font-family: "Open Sans Condensed", sans-serif;
   text-align: center;
 }
+
+.content p {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin: 30px 20px;
+}
+
+.contact h1 {
+  font-family: "Oswald", sans-serif;
+}
