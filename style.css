@@ -1,3 +1,7 @@
+.container h2 {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
 .header-nav ul {
  font-family: "Oswald", sans-serif;
  text-align: center;
@@ -39,24 +43,32 @@
   position: relative;
 }
 
-.jumbotron .content cite {
+.jumbotron .cite cite {
   color: white;
   position: absolute;
   bottom: 0;
   right: 0;
 }
 
-.content h2 {
-  font-family: "Open Sans Condensed", sans-serif;
-  text-align: center;
-}
+/*.container .about h2 {
 
-.content p {
+}*/
+
+/*.container .about p {
   font-family: "Roboto", sans-serif;
-  text-align: center;
-  margin: 30px 20px;
-}
+  text-align: left;
+  float: left;
+  width: 50%;
+  margin: 0;
+}*/
 
+
+/*.container .values p {
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  float: left;
+  width: 50%;
+}*/
 .contact h1 {
   font-family: "Oswald", sans-serif;
 }
