@@ -50,25 +50,10 @@
   right: 0;
 }
 
-/*.container .about h2 {
-
-}*/
-
-/*.container .about p {
-  font-family: "Roboto", sans-serif;
-  text-align: left;
-  float: left;
-  width: 50%;
-  margin: 0;
-}*/
-
-
-/*.container .values p {
-  font-family: "Roboto", sans-serif;
-  text-align: left;
-  float: left;
-  width: 50%;
-}*/
 .contact h1 {
   font-family: "Oswald", sans-serif;
+}
+
+.container {
+  background-color: #e0e2e5;
 }
