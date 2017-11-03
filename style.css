@@ -23,15 +23,23 @@
 
 .header-nav a {
   color: black;
+  padding: 5px 5px;
+  margin: 5px 5px;
 }
 
 .header-nav a:hover {
+  text-decoration: none;
+  transition: 0.5s;
   color: blue;
 }
 
 .header-nav .logo {
   letter-spacing: 2px;
   font-size: 200%;
+}
+
+.header-nav .logo a:hover {
+  color: black;
 }
 
 .jumbotron {
@@ -55,5 +63,25 @@
 }
 
 .container {
-  background-color: #e0e2e5;
+  background-color: #edeeef;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 30%;
+}
+
+.fa-facebook-square:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
 }
