@@ -24,13 +24,16 @@
 
 <!--Main Content-->
 <div class="col-md-5">
-<div class="container">
+<div class="container-form">
 <div class="contact">
-<h1> Contact Us </h1>
+<h1> Contact Us - <small> Let us know how we're doing! </small> </h1>
   <br></br>
 <div class="form-group">
-  <label> Name </label>
-  <input type="text" class="form-control" placeholder="Name" id="name">
+  <label> First Name </label>
+  <input type="text" class="form-control" placeholder="First Name" id="first_name">
+  <br></br>
+  <label> Last Name </label>
+  <input type="text" class="form-control" placeholder="Last Name" id="last_name">
   <br></br>
   <label> Email </label>
   <input type="email" class="form-control" placeholder="Email" id="email">
@@ -38,26 +41,30 @@
   <label> Message </label>
   <textarea class="form-control" id="textarea" placeholder="Message" rows="5"></textarea>
   <br></br>
-  <button type="submit" class="btn btn-primary"> Submit </button>
+  <button type="submit" id="submit" class="btn btn-primary"> Submit </button>
 </div>
 </div>
 </div>
 </div>
 
 <!--Google Map reference-->
-<div class="col-md-7">
-<div class="map">
-  <ul> Store Hours </ul>
-    <li> Monday: 9AM - 7PM </li>
-    <li> Tuesday: 9AM - 7PM </li>
-    <li> Wednesday: 9AM - 7PM </li>
-    <li> Thursday: 9AM - 7PM </li>
-    <li> Friday: 9AM - 7PM </li>
-    <li> Saturday: 9AM - 7PM </li>
-    <li> Sunday: 1PM - 5PM </li>
-  </ul>
-  <iframe
-    width="300"
+<div class="col-md-6">
+<div class="side-nav">
+  <h3> Phone </h3>
+  <hr>
+  <strong> (903) 787-7563 </strong>
+  <br></br>
+  <h3> Store Hours </h3>
+  <hr>
+  <li> Monday: 9AM - 7PM </li>
+  <li> Tuesday: 9AM - 7PM </li>
+  <li> Wednesday: 9AM - 7PM </li>
+  <li> Thursday: 9AM - 7PM </li>
+  <li> Friday: 9AM - 7PM </li>
+  <li> Saturday: 9AM - 7PM </li>
+  <li> Sunday: 1PM - 5PM </li>
+  <iframe id="google_map"
+    width="500"
     height="300"
     frameborder="0" style="border:0"
     src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAJeWNxhRu8vk07Qyh2_dl9AUhV6aJftaI
