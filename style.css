@@ -1,9 +1,34 @@
+.contact {
+  padding: 0 auto;
+  margin: 10px 20px;
+}
+
+.contact h1 {
+  font-family: "Oswald", sans-serif;
+}
+
+.contact small {
+  color: black;
+}
+
 .container {
   background-color: #edeeef;
 }
 
 .container h2 {
   font-family: "Open Sans Condensed", sans-serif;
+}
+
+.container-form {
+  background-color: #edeeef;
+  padding: 10px 20px;
+  margin: 20px 30px;
+  position: relative;
+  left: 100px;
+}
+
+.header-nav {
+  background-color: #edeeef;
 }
 
 .header-nav ul {
@@ -47,23 +72,12 @@
 }
 
 .jumbotron {
-  background-image: url("../../Pictures/julian-hanslmaier-77279.jpg");
+  background-image: url("kabayan_header.JPG");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 500px;
   position: relative;
-}
-
-.jumbotron .cite cite {
-  color: white;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-
-.contact h1 {
-  font-family: "Oswald", sans-serif;
 }
 
 .fa {
@@ -86,20 +100,30 @@
   color: white;
 }
 
-.map {
+.side-nav {
   position: relative;
   float: right;
-  /*display: inline-block;*/
-  background-color: #edeeef;
+  top: 0px;
+  /*background-color: #edeeef;*/
   padding: 5px 10px;
   margin: 5px 10px;
+  font-family: "Oswald", sans-serif
 }
 
-.map ul, li {
+.side-nav #google_map {
+    position: relative;
+    top: 30px;
+}
+
+.side-nav hr {
   position: relative;
-  text-align: center;
+  left: -125px;
+  width: 50%;
+}
+
+.side-nav li {
+  position: relative;
   list-style: none;
-  font-family: "Oswald", sans-serif
 }
 
 .footer {
