@@ -3,6 +3,11 @@
   margin: 10px 20px;
 }
 
+#contact-footer {
+  position: relative;
+  top: 750px;
+}
+
 .contact h1 {
   font-family: "Oswald", sans-serif;
 }
@@ -56,10 +61,10 @@
 }
 
 .footer {
-  position: absolute;
-  bottom: 0;
-  left: 800px;
+  position: relative;
+  top: 180px;
 }
+
 
 .header-nav {
   background-color: #edeeef;
